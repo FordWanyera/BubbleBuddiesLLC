@@ -1,10 +1,17 @@
 import './App.css';
 
-function App() {
+function App() 
   const title = 'Welcome to BubbleBuddiesLLC';
   const likes = 50;
   //const person = {name: 'yoshi', age: 30}
   const link = "https://www.google.com";
+
+  const {entities} = useJaneHopkins();
+
+  const addPatient = async() => {
+    const addPatientResponse = await entities.patient.add({
+      
+    })
 
   return (
     <div className="App">
