@@ -4,6 +4,7 @@ function App()
   const title = 'Welcome to BubbleBuddiesLLC';
   const likes = 50;
   //const person = {name: 'yoshi', age: 30}
+  //hello world
   const link = "https://www.google.com";
 
   const {entities} = useJaneHopkins();
