@@ -52,7 +52,7 @@
   align-items: center;
   max-width: auto;
   margin: 0 auto;
-  border-bottom: 1px solid #f2f2f2;
+  border-bottom: 1px solid #838383;
 }
 .root-layout h1 {
   color: #f1356d;
@@ -69,4 +69,24 @@
 }
 .root-layout a:hover {
   color: #f1356d;
+}
+
+.home h2 {
+  margin-left: 20px;
+}
+
+.about h2 {
+  margin-left: 20px;
+}
+
+.jane-hopkins h2 {
+  margin-left: 20px;
+}
+
+.fda h2 {
+  margin-left: 20px;
+}
+
+.bavaria h2 {
+  margin-left: 20px;
 }
