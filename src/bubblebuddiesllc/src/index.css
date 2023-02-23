@@ -44,3 +44,29 @@
   margin: 40px auto;
   padding: 20px;
 }
+
+
+.root-layout {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: auto;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.root-layout h1 {
+  color: #f1356d;
+}
+.root-layout .links {
+  margin-left: auto;
+}
+
+.root-layout a {
+  margin-left: 16px;
+  margin-right: 20px;
+  text-decoration: none;
+  padding: 0px;
+}
+.root-layout a:hover {
+  color: #f1356d;
+}
