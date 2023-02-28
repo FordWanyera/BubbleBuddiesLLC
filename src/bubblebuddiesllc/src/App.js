@@ -1,5 +1,5 @@
-import {createBrowserRouter, Route, createRoutesFromElements, RouterProvider} from 'react-router-dom'
-import Navbar from './Navbar';
+import './App.css';
+
 
 //pages
 import Home from './pages/Home'
@@ -23,15 +23,17 @@ const router = createBrowserRouter(
   )
 )
 
-function App(){ 
-  const likes = 50;
-  //const person = {name: 'yoshi', age: 30}
-  //hello world
-  const link = "https://www.google.com";
+function App() {
+  const title = 'Welcome to BubbleBuddiesLLC';
 
+  const likes = 50;
+   // Trang was here
+  //const person = {name: 'yoshi', age: 30}
+  //hello world 
+  const link = "https://www.google.com";
   return (
     <RouterProvider router={router} />
-
   );
 }
+
 export default App;
