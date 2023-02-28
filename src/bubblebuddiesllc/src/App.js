@@ -31,23 +31,6 @@ function App(){
 
   return (
     <RouterProvider router={router} />
-    
-    // <div className="App">
-    //   <Navbar />
-    //   <div className="content">
-
-    //     <Home />
-    //     <p>Liked {likes} times</p>
-
-    //     <p>{10}</p>
-    //     <p>"Hello, BubbleBuddiesLLC"</p>
-    //     <p>{[1, 2, 3, 4, 5]}</p>
-    //     <p>{Math.random() * 10}</p>
-
-    //     <a href={link} link>Google Site</a>
-
-    //   </div>
-    // </div>
 
   );
 }
