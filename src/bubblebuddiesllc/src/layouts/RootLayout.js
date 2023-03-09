@@ -7,6 +7,13 @@ export default function RootLayout(){
            <header>
             <nav>
             <h1>Bubble Buddies Pharma Study</h1>
+            <hr
+            style={{
+                background: "#47B5FF",
+                height: "2px",
+                border: "none",
+             }}
+             />
             <div className="links">
                 <NavLink to="/">Home</NavLink>
                 <NavLink to="about">About</NavLink>
