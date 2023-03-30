@@ -16,8 +16,8 @@ export default function Home() {
                     <button>FDA Login</button>
                 </Link>
 
-                <Link to="barvaria">
-                    <button>Barvaria Login</button>
+                <Link to="bavaria">
+                    <button>Bavaria Login</button>
                 </Link>
         </div>
         
