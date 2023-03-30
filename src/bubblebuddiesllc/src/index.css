@@ -7,45 +7,8 @@
   font-family: "Quicksand";
   color: #333;
 }
-.navbar {
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  max-width: auto;
-  margin: 0 auto;
-  border-bottom: 1px solid #f2f2f2;
-}
-.navbar h1 {
-  color: #f1356d;
-}
-.navbar .links {
-  margin-left: auto;
-}
 
-/*.navbar .patientrecords {
-  margin-right: 16px;
-  padding-left: 40px;
-}
-.navbar .credentials {
-  margin-right: 0px;
-  padding-left: 0px;
-}*/
-.navbar a {
-  margin-left: 16px;
-  margin-right: 20px;
-  text-decoration: none;
-  padding: 0px;
-}
-.navbar a:hover {
-  color: #f1356d;
-}
-.content {
-  max-width: 600px;
-  margin: 40px auto;
-  padding: 20px;
-}
-
-
+/* Root Layout */
 .root-layout {
   padding: 20px;
   display: flex;
@@ -55,12 +18,15 @@
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
+  background-color: #a3d0d6;
 
 }
+
 .root-layout h1 {
   color: #f1356d;
 }
-.root-layout .links {
+
+.root-layout .navLinks {
   margin-left: auto;
 }
 
@@ -70,24 +36,46 @@
   text-decoration: none;
   padding: 0px;
 }
+
 .root-layout a:hover {
   color: #f1356d;
 }
 
-.home h2 {
-  margin-left: 20px;
+
+/*Home Page*/
+.home {
+  position: absolute;
+  top: 150px;
+  left: 1220px;
+  scale: 2;
 }
 
+.links {
+  position: absolute;
+  top: 240px;
+  left: 1040px;
+  scale: 2;
+}
+
+/*About Page*/
 .about h2 {
   margin-left: 20px;
+  position:absolute;
+  top: 100px;
+  left: 20px;
+}
+
+
+/*Jane Hopkins Page*/
+.jane-hopkins{
+  position: absolute;
+  top: 100px;
+  left: 20px;
 }
 
 .jane-hopkins h2 {
   margin-left: auto;
   border-bottom: 1px solid #838383;
-  position:absolute;
-  top: 100px;
-  left: 20px;
 }
 
 .jane-hopkins body {
@@ -96,10 +84,18 @@
   left: 0px;
 }
 
+/*FDA Page*/
 .fda h2 {
   margin-left: 20px;
+  position:absolute;
+  top: 100px;
+  left: 20px;
 }
 
+/*Bavaria Page*/
 .bavaria h2 {
   margin-left: 20px;
+  position:absolute;
+  top: 100px;
+  left: 20px;
 }

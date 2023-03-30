@@ -24,13 +24,6 @@ const router = createBrowserRouter(
 )
 
 function App() {
-  const title = 'Welcome to BubbleBuddiesLLC';
-
-  const likes = 50;
-   // Trang was here
-  //const person = {name: 'yoshi', age: 30}
-  //hello world 
-  const link = "https://www.google.com";
   return (
     <RouterProvider router={router} />
   );
