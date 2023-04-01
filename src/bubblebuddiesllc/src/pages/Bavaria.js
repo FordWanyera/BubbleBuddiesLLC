@@ -47,7 +47,7 @@ const Bavaria = () => {
     return (
         <div className="bavaria">
             <div>
-                <h2>FDA Portal</h2>
+                <h2>Bavaria Portal</h2>
                 <h3>Register User</h3>
                 <input class = "input1"
                     placeholder="Email..." 
