@@ -103,9 +103,19 @@
 }
 
 /*Bavaria Page*/
-.bavaria h2 {
-  margin-left: 20px;
-  position:absolute;
+.bavaria{
+  position: absolute;
   top: 100px;
   left: 20px;
+}
+
+.bavaria h2 {
+  margin-left: auto;
+  border-bottom: 1px solid #838383;
+}
+
+.bavaria body {
+  position:relative;
+  top: 0px;
+  left: 0px;
 }
